@@ -1,0 +1,78 @@
+<!Doctype HTML>
+<head>
+<style>
+body
+{
+background-color:beige;
+background-repeat:no-repeat;
+background-size:cover;
+font-family:comic sans ms;
+}
+h2
+{
+	color:beige;
+}
+div
+{
+		font-size:150%;
+		background-color:nil;
+		padding:30px;
+}
+
+button
+{
+
+ background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+button:hover
+{
+ 		background-color:orange;
+}
+</style>
+<body>
+<marquee style="background-image:linear-gradient(to bottom right,maroon,red"><h2>WELCOME TO JATIN'S TOUR AND TRAVELS</h2></marquee>
+<div style="float:right"><button onclick="func()"> About </button></div>&nbsp&nbsp
+<div style="float:right"><button onclick="func2()">Contact us</button></div> &nbsp&nbsp
+<div style="float:right"><button onclick="func3()"> Hotels </button></div>&nbsp&nbsp
+<div style="float:right"><button onclick="func4()"> Tours</button></div>&nbsp&nbsp
+<div style="float:right"><button onclick="gohome();">Home</button>
+</div>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<img class="nature" src="c1.jpg" width="100%">
+<img class="nature" src="c2.jpg" width="100%">
+<img class="nature" src="c3.jpg" width="100%">
+<script>
+w3.slideshow(".nature", 1000);
+</script>
+<script>
+function gohome()
+{
+window.location.href="main.html"
+}
+function func()
+{
+window.location.href="about.html";
+}
+function func2()
+{
+window.location.href="contact.html";
+}
+function func3()
+{
+window.location.href="hotels.html";
+}
+function func4()
+{
+window.location.href="tours.html";
+}
+</script>
+</body>
+</html>
